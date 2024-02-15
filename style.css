@@ -1,37 +1,49 @@
+/* Styles for the header */
 .header {
-    text-align: center;
-    color: #FFF933;
-  }
-  
+    text-align: center; /* Center align the text */
+    color: #FFF933; /* Set text color to a shade of yellow */
+}
+
+/* Styles for the body */
 body {
-    background-color: Black;
-    height: 900px;
-    width: 100%;
+    background-color: Black; /* Set the background color to black */
+    height: 900px; /* Set the height of the body to 900px */
+    width: 100%; /* Set the width of the body to 100% */
 }
-  
+
+/* Styles for table body content */
 tbody {
-    color: Red;
+    color: Red; /* Set text color of table body content to red */
 }
-  
+
+/* Styles for the game status element */
 #gamestatus {
-    text-align: center;
-    font-size: 20px;
-    color: #71FF33;
+    text-align: center; /* Center align the text */
+    font-size: 20px; /* Set font size to 20px */
+    color: #71FF33; /* Set text color to a shade of green */
 }
-  
+
+/* Styles for the table */
 table { 
-    margin-left: auto; margin-right: auto 
+    margin-left: auto; /* Set left margin to auto for centering */
+    margin-right: auto; /* Set right margin to auto for centering */
 }
 
+/* Styles for table cells */
 td { 
-    width : 75px; height: 75px; text-align: center; font-size: 4em; font-family: sans-serif 
+    width: 75px; /* Set width of cells to 75px */
+    height: 75px; /* Set height of cells to 75px */
+    text-align: center; /* Center align the text within cells */
+    font-size: 4em; /* Set font size to 4em */
+    font-family: sans-serif; /* Use sans-serif font family */
 }
 
-td#cell1 { border-right : 2px solid orange; border-bottom : 2px solid orange; }
-td#cell2 { border-bottom : 2px solid orange; }
-td#cell3 { border-bottom : 2px solid orange; border-left : 2px solid orange; }
-td#cell4 { border-right : 2px solid orange; border-bottom : 2px solid orange; }
-td#cell5 { border-bottom : 2px solid orange; }
-td#cell6 { border-bottom : 2px solid orange; border-left : 2px solid orange; }			
-td#cell7 { border-right : 2px solid orange; }
-td#cell9 { border-left : 2px solid orange; }
+/* Styles for specific table cells */
+td#cell1 { border-right: 2px solid orange; border-bottom: 2px solid orange; } /* Apply specific border styles to cell 1 */
+td#cell2 { border-bottom: 2px solid orange; } /* Apply specific border styles to cell 2 */
+td#cell3 { border-bottom: 2px solid orange; border-left: 2px solid orange; } /* Apply specific border styles to cell 3 */
+td#cell4 { border-right: 2px solid orange; border-bottom: 2px solid orange; } /* Apply specific border styles to cell 4 */
+td#cell5 { border-bottom: 2px solid orange; } /* Apply specific border styles to cell 5 */
+td#cell6 { border-bottom: 2px solid orange; border-left: 2px solid orange; } /* Apply specific border styles to cell 6 */
+td#cell7 { border-right: 2px solid orange; } /* Apply specific border styles to cell 7 */
+td#cell9 { border-left: 2px solid orange; } /* Apply specific border styles to cell 9 */
